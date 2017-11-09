@@ -1,1 +1,2 @@
 https://servicecomb.atlassian.net/browse/JAV-429?filter=-3
+As a developer, I need to get informed if my contract in local doesn't match the content already in SC so that I can change my code to handle it and avoid the incorrect running behavior
