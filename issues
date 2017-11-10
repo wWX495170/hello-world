@@ -1,2 +1,6 @@
 https://servicecomb.atlassian.net/browse/JAV-429?filter=-3
 As a developer, I need to get informed if my contract in local doesn't match the content already in SC so that I can change my code to handle it and avoid the incorrect running behavior
+1. start edge service;
+2. start a servicecomb provider
+request http://127.0.0.1:9990/test(provider directly) given 404 and Not Found mesage
+request edge: http://127.0.0.1:18080/api/travel-service/test give 500 Internal Server Error
