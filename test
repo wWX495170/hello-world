@@ -1,0 +1,107 @@
+log4j:WARN No appenders could be found for logger (org.springframework.core.io.support.PathMatchingResourcePatternResolver).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+2017-11-08 10:45:16,541 [INFO] Write merged log4j config file to D:\code\pojo-codefirst\test-codefirst-pojo-provider\target\classes\config\merged.log4j.properties io.servicecomb.foundation.common.utils.Log4jUtils.outputFile(Log4jUtils.java:103)
+2017-11-08 10:45:16,603 [INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6a5fc7f7: startup date [Wed Nov 08 10:45:16 GMT+08:00 2017]; root of context hierarchy org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:582)
+2017-11-08 10:45:16,712 [INFO] Loading XML bean definitions from file [D:\code\pojo-codefirst\test-codefirst-pojo-provider\target\classes\META-INF\spring\pojo.server.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+2017-11-08 10:45:17,087 [INFO] Loading XML bean definitions from URL [jar:file:/C:/Users/wWX495170/.m2/repository/io/servicecomb/java-chassis-core/0.4.0/java-chassis-core-0.4.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+2017-11-08 10:45:17,556 [INFO] Loading XML bean definitions from URL [jar:file:/C:/Users/wWX495170/.m2/repository/io/servicecomb/foundation-config/0.4.0/foundation-config-0.4.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+2017-11-08 10:45:17,587 [INFO] Loading XML bean definitions from URL [jar:file:/C:/Users/wWX495170/.m2/repository/io/servicecomb/transport-rest-client/0.4.0/transport-rest-client-0.4.0.jar!/META-INF/spring/cse.transport.rest.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+2017-11-08 10:45:17,587 [INFO] Loading XML bean definitions from URL [jar:file:/C:/Users/wWX495170/.m2/repository/io/servicecomb/foundation-vertx/0.4.0/foundation-vertx-0.4.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+2017-11-08 10:45:17,603 [INFO] Loading XML bean definitions from URL [jar:file:/C:/Users/wWX495170/.m2/repository/io/servicecomb/foundation-common/0.4.0/foundation-common-0.4.0.jar!/META-INF/spring/common.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+2017-11-08 10:45:17,618 [INFO] Loading XML bean definitions from URL [jar:file:/C:/Users/wWX495170/.m2/repository/io/servicecomb/handler-bizkeeper/0.4.0/handler-bizkeeper-0.4.0.jar!/META-INF/spring/cse.bean.xml] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+2017-11-08 10:45:17,993 [WARN] No URLs will be polled as dynamic configuration sources. com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121)
+2017-11-08 10:45:18,009 [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122)
+2017-11-08 10:45:18,009 [INFO] create dynamic config: io.servicecomb.config.ConfigUtil.createDynamicConfig(ConfigUtil.java:156)
+2017-11-08 10:45:18,102 [INFO] create local config: io.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:88)
+2017-11-08 10:45:18,102 [INFO]  file:/D:/code/pojo-codefirst/test-codefirst-pojo-provider/target/classes/microservice.yaml. io.servicecomb.config.ConfigUtil.createLocalConfig(ConfigUtil.java:90)
+2017-11-08 10:45:18,134 [INFO] config center URL is missing, skip to load configuration from config center io.servicecomb.config.ConfigUtil.createConfigFromConfigCenter(ConfigUtil.java:139)
+2017-11-08 10:45:18,711 [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:155)
+2017-11-08 10:45:18,899 [INFO] Found swagger generator context: io.servicecomb.swagger.generator.springmvc.SpringmvcSwaggerGeneratorContext io.servicecomb.swagger.generator.core.CompositeSwaggerGeneratorContext.<init>(CompositeSwaggerGeneratorContext.java:39)
+2017-11-08 10:45:18,899 [INFO] Found swagger generator context: io.servicecomb.swagger.generator.pojo.PojoSwaggerGeneratorContext io.servicecomb.swagger.generator.core.CompositeSwaggerGeneratorContext.<init>(CompositeSwaggerGeneratorContext.java:39)
+2017-11-08 10:45:19,992 [INFO] load microservice config, name=pojo, paths=[file:/D:/code/pojo-codefirst/test-codefirst-pojo-provider/target/classes/microservice.yaml] io.servicecomb.serviceregistry.definition.MicroserviceDefinition.logConfigPath(MicroserviceDefinition.java:133)
+2017-11-08 10:45:20,086 [INFO] It is running in the normal mode, a separated service registry is required io.servicecomb.serviceregistry.registry.ServiceRegistryFactory.create(ServiceRegistryFactory.java:81)
+2017-11-08 10:45:20,398 [INFO] add network interface name:eth3,host address:10.65.62.209 io.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:104)
+2017-11-08 10:45:20,398 [INFO] add network interface name:eth4,host address:192.168.56.1 io.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:104)
+2017-11-08 10:45:20,398 [INFO] add network interface name:eth5,host address:192.168.59.3 io.servicecomb.foundation.common.net.NetUtils.doGetIpv4AddressFromNetworkInterface(NetUtils.java:104)
+2017-11-08 10:45:20,460 [INFO] add host name from localhost:szxyawwx4951701,host address:10.65.62.209 io.servicecomb.foundation.common.net.NetUtils.<clinit>(NetUtils.java:62)
+2017-11-08 10:45:20,476 [INFO] executor group 2, thread per group 4. io.servicecomb.core.executor.FixedThreadExecutor.<init>(FixedThreadExecutor.java:53)
+2017-11-08 10:45:20,710 [INFO] generate cse.gen.pojotest.pojo.helloworld.sayhello.name in classLoader sun.misc.Launcher$AppClassLoader@73d16e93. io.servicecomb.common.javassist.JavassistUtils.createClass(JavassistUtils.java:181)
+2017-11-08 10:45:20,726 [INFO] generate cse.gen.pojotest.pojo.helloworld.sayHi.hi in classLoader sun.misc.Launcher$AppClassLoader@73d16e93. io.servicecomb.common.javassist.JavassistUtils.createClass(JavassistUtils.java:181)
+2017-11-08 10:45:20,726 [INFO] generate cse.gen.pojotest.pojo.helloworld.HelloWorldImplIntf in classLoader sun.misc.Launcher$AppClassLoader@73d16e93. io.servicecomb.common.javassist.JavassistUtils.createClass(JavassistUtils.java:181)
+2017-11-08 10:45:20,819 [INFO] generate swagger for pojotest/pojo/helloworld, swagger: ---
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: "swagger definition for com.huawei.helloworld.HelloWorldImpl"
+  x-java-interface: "cse.gen.pojotest.pojo.helloworld.HelloWorldImplIntf"
+basePath: "/HelloWorldImpl"
+consumes:
+- "application/json"
+produces:
+- "application/json"
+paths:
+  /sayhello:
+    post:
+      operationId: "sayhello"
+      parameters:
+      - in: "body"
+        name: "name"
+        required: false
+        schema:
+          $ref: "#/definitions/sayhelloBody"
+      responses:
+        200:
+          description: "response of 200"
+          schema:
+            type: "string"
+  /sayHi:
+    post:
+      operationId: "sayHi"
+      parameters:
+      - in: "body"
+        name: "hi"
+        required: false
+        schema:
+          $ref: "#/definitions/sayHiBody"
+      responses:
+        200:
+          description: "response of 200"
+          schema:
+            type: "string"
+definitions:
+  sayHiBody:
+    type: "object"
+    properties:
+      hi:
+        type: "string"
+  sayhelloBody:
+    type: "object"
+    properties:
+      name:
+        type: "string"
+ io.servicecomb.core.definition.schema.ProducerSchemaFactory.createSchema(ProducerSchemaFactory.java:104)
+2017-11-08 10:45:20,819 [INFO] register schema pojotest/pojo/helloworld io.servicecomb.core.definition.loader.SchemaLoader.registerSchema(SchemaLoader.java:90)
+2017-11-08 10:45:20,882 [INFO] choose io.servicecomb.transport.rest.vertx.VertxRestTransport for rest. io.servicecomb.core.transport.TransportManager.chooseOneTransport(TransportManager.java:85)
+2017-11-08 10:45:20,882 [INFO] choose io.servicecomb.transport.highway.HighwayTransport for highway. io.servicecomb.core.transport.TransportManager.chooseOneTransport(TransportManager.java:85)
+2017-11-08 10:45:20,913 [INFO] init vertx http dispatcher io.servicecomb.transport.rest.vertx.VertxRestDispatcher io.servicecomb.transport.rest.vertx.RestServerVerticle.initDispatcher(RestServerVerticle.java:85)
+2017-11-08 10:45:20,913 [INFO] set uploads directory to null. io.servicecomb.transport.rest.vertx.AbstractVertxHttpDispatcher.createBodyHandler(AbstractVertxHttpDispatcher.java:48)
+2017-11-08 10:45:21,647 [INFO] rest listen success. address=127.0.0.1:8080 io.servicecomb.transport.rest.vertx.RestServerVerticle.lambda$startListen$0(RestServerVerticle.java:93)
+2017-11-08 10:45:21,663 [INFO] endpoint to publish: rest://127.0.0.1:8080 io.servicecomb.core.transport.TransportManager.init(TransportManager.java:57)
+2017-11-08 10:45:21,663 [WARN] highway listen address is not configured, will not listen. io.servicecomb.transport.highway.HighwayServerVerticle.startListen(HighwayServerVerticle.java:58)
+2017-11-08 10:45:21,694 [INFO] add schema to service paths. pojotest:pojo:helloworld. io.servicecomb.common.rest.locator.ServicePathManager.addSchema(ServicePathManager.java:91)
+2017-11-08 10:45:21,694 [INFO] Swagger mapped "{[/HelloWorldImpl/sayHi/], method=[POST], produces=[application/json]}" onto public abstract java.lang.String cse.gen.pojotest.pojo.helloworld.HelloWorldImplIntf.sayHi(cse.gen.pojotest.pojo.helloworld.sayHi.hi) io.servicecomb.common.rest.locator.MicroservicePaths.printPath(MicroservicePaths.java:103)
+2017-11-08 10:45:21,694 [INFO] Swagger mapped "{[/HelloWorldImpl/sayhello/], method=[POST], produces=[application/json]}" onto public abstract java.lang.String cse.gen.pojotest.pojo.helloworld.HelloWorldImplIntf.sayhello(cse.gen.pojotest.pojo.helloworld.sayhello.name) io.servicecomb.common.rest.locator.MicroservicePaths.printPath(MicroservicePaths.java:103)
+2017-11-08 10:45:21,694 [INFO] running microservice register task. io.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:57)
+2017-11-08 10:45:21,991 [WARN] Service does not exist. io.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.lambda$null$0(ServiceRegistryClientImpl.java:111)
+2017-11-08 10:45:22,006 [INFO] Registry Microservice successfully. id=dd65d592c42e11e7886d286ed4891d48 appId=pojotest, name=pojo, version=0.0.2, schemaIds=[helloworld] io.servicecomb.serviceregistry.task.MicroserviceRegisterTask.doRegister(MicroserviceRegisterTask.java:89)
+2017-11-08 10:45:22,022 [WARN] Schema does not exist. io.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.lambda$null$0(ServiceRegistryClientImpl.java:111)
+2017-11-08 10:45:22,022 [INFO] schemaId helloworld exists false io.servicecomb.serviceregistry.task.MicroserviceRegisterTask.registerSchemas(MicroserviceRegisterTask.java:143)
+2017-11-08 10:45:22,022 [INFO] register schema dd65d592c42e11e7886d286ed4891d48/helloworld success. io.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.registerSchema(ServiceRegistryClientImpl.java:255)
+2017-11-08 10:45:22,038 [INFO] read MicroserviceRegisterTask status is FINISHED io.servicecomb.serviceregistry.task.ServiceCenterTask.onRegisterTask(ServiceCenterTask.java:51)
+2017-11-08 10:45:22,038 [INFO] running microservice instance register task. io.servicecomb.serviceregistry.task.MicroserviceInstanceRegisterTask.doRegister(MicroserviceInstanceRegisterTask.java:59)
+2017-11-08 10:45:22,069 [INFO] Register microservice instance success. microserviceId=dd65d592c42e11e7886d286ed4891d48 instanceId=dd6cfb92c42e11e7886d286ed4891d48 endpoints=[rest://127.0.0.1:8080] lease 120s io.servicecomb.serviceregistry.task.MicroserviceInstanceRegisterTask.doRegister(MicroserviceInstanceRegisterTask.java:77)
+2017-11-08 10:45:22,069 [INFO] read MicroserviceInstanceRegisterTask status is FINISHED io.servicecomb.serviceregistry.task.ServiceCenterTask.onRegisterTask(ServiceCenterTask.java:51)
+2017-11-08 10:45:22,131 [INFO] Reconnected to service center, clean up the provider's microservice instances cache. io.servicecomb.serviceregistry.registry.AbstractServiceRegistry.onRecovered(AbstractServiceRegistry.java:169)
+2017-11-08 10:45:22,131 [INFO] watching microservice dd65d592c42e11e7886d286ed4891d48 successfully, the chosen service center address is 127.0.0.1:30100 io.servicecomb.serviceregistry.client.http.ServiceRegistryClientImpl.lambda$watch$6(ServiceRegistryClientImpl.java:475)
+2017-11-08 10:45:52,130 [WARN] sc task interval changed from -1 to 30 io.servicecomb.serviceregistry.task.ServiceCenterTaskMonitor.beginCycle(ServiceCenterTaskMonitor.java:38)
