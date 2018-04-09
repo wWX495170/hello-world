@@ -23,7 +23,9 @@ import java.util.concurrent.Executors;
 import org.hamcrest.Matchers;
 import org.junit.Assert;
 import org.junit.Test;
-
+/*
+ * 测试guava16.0.1和19.0版本EventBus的性能区别，使用了四个线程池来执行任务
+ */
 public class TestSimpleEventBus {
 //  private SimpleEventBus eventBus = new SimpleEventBus();
   private EventBus eventBus = new EventBus();
