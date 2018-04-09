@@ -24,7 +24,17 @@ import org.hamcrest.Matchers;
 import org.junit.Assert;
 import org.junit.Test;
 /*
- * 测试guava16.0.1和19.0版本EventBus的性能区别，使用了四个线程池来执行任务
+ * 此demo为UT，测试guava16.0.1和19.0版本EventBus的性能区别，使用了四个线程池来执行任务
+ * Main  |
+ *  start↓_____n=0_____1____2____3
+ *       .        |    |    |    |
+ *       .  100000|    |    |    |
+ *  wait .        ↓    ↓    ↓    ↓
+ *       .        __countDown_____
+ *       .←_______________↓
+ *  end  |
+ *       ↓
+ *
  */
 public class TestSimpleEventBus {
 //  private SimpleEventBus eventBus = new SimpleEventBus();
